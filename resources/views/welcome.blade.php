@@ -14,7 +14,7 @@
         Hello 11 January 2023
     </h1>
 
-    <div class="container flex justify-center">
+    <div class="container flex justify-center border-collapse border border-slate-400">
         <table class="table-auto">
             <thead>
               <tr>
