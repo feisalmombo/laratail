@@ -468,20 +468,57 @@ video {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+.container {
+  width: 100%;
+}
+@media (min-width: 640px) {
+
+  .container {
+    max-width: 640px;
+  }
+}
+@media (min-width: 768px) {
+
+  .container {
+    max-width: 768px;
+  }
+}
+@media (min-width: 1024px) {
+
+  .container {
+    max-width: 1024px;
+  }
+}
+@media (min-width: 1280px) {
+
+  .container {
+    max-width: 1280px;
+  }
+}
+@media (min-width: 1536px) {
+
+  .container {
+    max-width: 1536px;
+  }
+}
+.flex {
+  display: flex;
+}
+.table {
+  display: table;
+}
+.table-auto {
+  table-layout: auto;
+}
+.justify-center {
+  justify-content: center;
+}
 .py-10 {
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
 }
 .text-center {
   text-align: center;
-}
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-}
-.text-6xl {
-  font-size: 3.75rem;
-  line-height: 1;
 }
 .text-3xl {
   font-size: 1.875rem;
