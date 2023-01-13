@@ -11,7 +11,7 @@
 </head>
 <body>
     <h1 class="text-3xl font-bold text-indigo-500 py-10 text-center">
-        Hello 11 January 2023
+        {{ date('Y') }}
     </h1>
 
     <div class="container flex justify-center border-collapse border border-slate-400">
@@ -43,7 +43,7 @@
           </table>
     </div>
 
-    <section class="flex justify-center pb-5 px-3 py-6">
+    <section class="flex justify-center pb-5 px-3 py-6 font-bold">
             <p>
                 My trip to the summit
                 November 16, 2021 · 4 min read
